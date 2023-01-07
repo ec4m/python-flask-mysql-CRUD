@@ -15,11 +15,18 @@ python3 -m venv env
 source env/bin/activate
 ```
 
+Instalar dependencias desde el archivo requirements.txt
+```sh
+pip3 install -r requirements.txt
+```
+
 Generé una base de datos en MySql por medio de PhpMyAdmin llamada 'users' con los campos:
+```
 id       | smallint - auto incremento
 username | varchar(100)
 name     | varchar(100)
 password | varchar(300)
+```
 
 Ejecute la aplicación desde Vscode o con el comando:
 ```sh
